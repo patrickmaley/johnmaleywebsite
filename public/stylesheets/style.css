@@ -1,0 +1,145 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}*/
+
+/*a {
+  color: #00B7FF;
+}*/
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(/stylesheets/28DaysLater.ttf) format("truetype");
+}
+
+
+body,html {
+  height: 100%;
+/*   background-color: #020204; */
+   font-family: "My Custom Font", Verdana, Tahoma;
+   font-color: #C0C3D6;
+}
+
+.wide {
+  width:100%;
+  height: 300px;
+  background-image:url('/images/arizona_sunsetcut.jpg');
+  background-size:cover;
+}
+
+.wide img {
+  width:100%;
+}
+
+.logo {
+  color:#fff;
+  font-weight:800;
+  font-size:75pt;
+  padding:25px;
+  text-align:center;
+}
+
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 3em;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 25em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.dividingline{
+	border-top:5px solid #75928E;
+}
+
+@media screen and (min-width:1600px) {
+	img{
+		height: 550px;
+		width: 500px;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.wide{
+		height: 500px;
+		 background-size:cover;
+	}
+	.navbar-header {
+        display: none;
+    }
+
+     img{
+		height: 500px;
+		width: 400px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+	.wide{
+	height: 300px;
+	 background-size:cover;
+	}
+	.navbar-header {
+        display: none;
+    }
+
+    img{
+		height: 300px;
+		width: 250px;
+	}
+}
+
+@media screen and (min-width:1px) and (max-width: 767px)  {
+	.wide{
+		height: 250px;
+		 background-size:cover;
+	}
+.logo {
+  
+  font-weight:800;
+  font-size:50pt;
+  padding:25px;
+  text-align:center;
+}
+	 img{
+		height: 250px;
+		width: 200px;
+	}
+}
